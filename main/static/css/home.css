@@ -1,0 +1,433 @@
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    background: #3a0043;
+}
+h1 {
+    text-align: center;
+font-family: Inter, sans-serif;
+font-size: 96px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: uppercase;
+background: radial-gradient(553.84% 87.82% at 49.93% 28.43%, #40d5ea 0%, #5a0689 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.back_0 {
+    background: url("/static/png/фон.jpg"), lightgray 100% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@media (max-width: 464px) {
+    .back_0 {
+        background: url("/static/png/фон2.jpg"), lightgray 100% / cover no-repeat;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+input {
+    box-sizing: border-box;
+}
+header {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header div {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+header div a {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.hero-name h2 {
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 110.6%; /* 66.36px */
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+}
+.hero-name h2 {
+    color: #FFF;
+    margin: 0;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 110.6%; /* 66.36px */
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+}
+.hero-name h1 {
+    text-align: center;
+    margin: 0;
+    font-family: Inter, sans-serif;
+    font-size: 139px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%; /* 102.304px */
+    letter-spacing: 5.56px;
+    text-transform: uppercase;
+    background: radial-gradient(553.84% 87.82% at 49.93% 28.43%, #40d5ea 0%, #5a0689 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero-name p {
+    margin: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+}
+.hero-name{
+    padding: 125px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.hero-name img {
+    margin: 0 auto;
+    width: 30%;
+}
+.a-container {
+    width: 90%;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+.b-block {
+    color: #FFF;
+text-align: center;
+font-family: Inter, sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.all-tariffs {
+    margin-top: 80px;
+    display: flex;
+    gap: 5%;
+}
+.tariff {
+    width: 17%;
+    height: 600px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(217, 217, 217, 0.04) 100%);
+    box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0.00);
+    backdrop-filter: blur(25px);
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.trf-name {
+    color: #FFF;
+text-align: left;
+margin-bottom: 0;
+font-family: Inter, sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px; /* 150% */
+}
+.trf-price {
+    color: #FFF;
+    margin: 0;
+font-family: Inter, sans-serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.trf-services p{
+    color: #FFF;
+font-family: Inter, sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+margin: 8px 0;
+width: 90%;
+ /* 100% */
+}
+.trf-services div svg {
+    margin-right: 20px;
+}
+.trf-services div {
+    display: flex;
+    align-items: center;
+}
+.rooms {
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: space-evenly;
+    align-items: stretch;
+    gap: 5%;
+}
+.room {
+    border-radius: 27px;
+border: 1px solid #ffffff13;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(217, 217, 217, 0.04) 100%);
+box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0.00);
+backdrop-filter: blur(25px);
+    padding: 30px;
+    width: 25%;
+}
+.room-name {
+    text-align: center;
+    color: #FFF;
+font-family: Inter, sans-serif;
+font-size: 30px;
+font-style: normal;
+font-weight: 900;
+line-height: 42px; /* 116.667% */
+}
+.room img {
+    width: 100%;
+}
+.room-desc {
+    color: #FFF;
+text-align: center;
+font-family: Inter, sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+h3 {
+    color: #FFF;
+text-align: center;
+font-family: Inter, sans-serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.reviews {
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 5%;
+}
+.gap {
+    height: 50px;
+}
+
+@media (max-width: 650px) {
+    .gap {
+        height: 0px;
+    }
+}
+
+
+
+.review {
+
+    padding: 30px;
+    border-radius: 10px;
+border: 1px solid rgba(255, 255, 255, 0.20);
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(217, 217, 217, 0.04) 100%);
+box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0.00);
+backdrop-filter: blur(25px);
+}
+.r-txt {
+    color: #FFF;
+font-family: Inter, sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.author {
+    color: #FFF;
+font-family: Inter, sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+footer {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ghg {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+.ghg2 {
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+footer a {
+    color: white;
+}
+.logo p {
+    background: radial-gradient(553.84% 87.82% at 49.93% 28.43%, #40d5ea 0%, #5a0689 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align: center;
+font-family: Inter, sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 900;
+line-height: 116.6%; /* 41.976px */
+letter-spacing: 1.44px;
+text-transform: uppercase;
+}
+.plash {
+    width: 100%;
+}
+#lll{
+    width: 100%;
+}
+
+
+.bbb {
+width: 50%; display: flex; flex-direction: column; align-items: end;
+}
+
+
+@media (max-width: 650px) {
+    .bbb{
+        width: 100%;
+    }
+
+    header div:nth-child(1){
+        display: none;
+    }
+    header div a {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 33px;
+    }
+
+    .hero-name h2 {
+        font-size: 35px;
+    }
+    .hero-name h1 {
+        font-size: 33px;
+
+    }
+    .hero-name p {
+        font-size: 13px;
+    }
+    .hero-name img {
+        width: 60%;
+    }
+    .b-block {
+        font-size: 14px;
+    }
+
+    #lll {
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
+
+    .all-tariffs {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .tariff {
+        box-sizing: border-box;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .plash {
+        width: 100%;
+    }
+
+    .rooms {
+        flex-direction: column;
+    }
+    .room {
+        padding: 15px;
+        box-sizing: border-box;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .room-name {
+        font-size: 24px;
+    }
+    .room-desc {
+        font-size: 20px;
+    }
+    .reviews {
+        flex-direction: column;
+        margin-left: 5%;
+        width: 90%;
+    }
+    .review{
+        box-sizing: border-box;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    footer {
+        flex-direction: column;
+        text-align: center !important;
+    }
+    .ghg {
+        opacity: 0.5;
+        text-align: center;
+        align-items: center;
+    }
+    .ghg2 {
+        opacity: 0.5;
+
+        text-align: center;
+        align-items: center;
+    }
+    .a-container {
+        padding: 40px 0 0 0;
+    }
+    h3 {
+        font-size: 32px;
+    }
+    footer a {
+        font-size: 14px;
+    }
+}

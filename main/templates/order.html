@@ -1,0 +1,85 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>Starlight Cinema | КИНОТЕАТР</title>
+        <meta property="og:title" content="LOUNGE КИНО | КИНОТЕАТР">
+        <meta property="og:image" content="favi.png">
+    <meta property="og:description" content="Комфорт и уютная атмосфера для наших любых клиентов в нашем кинотеатре.">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/order.css' %}">
+</head>
+
+<body>
+    <form action="https://loves.kinonight.online/order/call.php" method="POST">
+        <h1>Бронирование</h1>
+        <input type="text" name="amount" value="5290" hidden="">
+        <input type="tel" id="purchaserNumber" name="purchaserNumber" placeholder="+7 (000) 000-0000">
+        <input type="text" name="purchaserName" placeholder="Фамилия Имя Отчество">
+                <select name="zal" style="color: #dc22ec;">
+            <option value="" selected="">Уютный</option>
+            <option value="">Романтический</option>
+            <option value="">Космический</option>
+            <option value="">Премиальный</option>
+        </select>
+        <input type="date" style="color: #dc22ec;" name="purchaserDate" min="2024-03-24" value="2024-03-24">
+        <select name="time" style="color: #dc22ec;">
+            <option value="" selected="">10:00</option>
+            <option value="">11:00</option>
+            <option value="">12:00</option>
+            <option value="">13:00</option>
+            <option value="">14:00</option>
+            <option value="">15:00</option>
+            <option value="">16:00</option>
+            <option value="">17:00</option>
+            <option value="">18:00</option>
+            <option value="">19:00</option>
+            <option value="">20:00</option>
+            <option value="">21:00</option>
+            <option value="">22:00</option>
+            <option value="">23:00</option>
+            <option value="">00:00</option>
+            <option value="">01:00</option>
+            <option value="">02:00</option>
+            <option value="">03:00</option>
+            <option value="">04:00</option>
+            <option value="">05:00</option>
+            <option value="">06:00</option>
+        </select>
+                    <select name="purchaserCity" style="color: #dc22ec;">
+                                              <option>
+                          г. Уфа, ул. Даяна Мурзина, 11                        </option>
+                                              <option>
+                          г. Санкт-Петербург, Чайковского, 24                        </option>
+                                              <option>
+                          г. Ростов-на-Дону, Красноармейская, 105                        </option>
+                                              <option>
+                          г. Москва, Ходынский б-р 4                        </option>
+                                              <option>
+                          г. Волгоград, Бульвар 30-летия Победы, 21                        </option>
+                                              <option>
+                          г. Казань, просп. Ибрагимова, 56                        </option>
+                                              <option>
+                          г. Нижневартовск, ул. Чапаева, 27                        </option>
+                                              <option>
+                          г. Ярославль, ул. Победы, 41                        </option>
+                                              <option>
+                          г. Калуга Синема Стар ул. Кирова, 19                        </option>
+                                              <option>
+                          г. Тула, просп. Ленина, 85, корп. 4, Тула (ТРЦ Ликёрка Лофт, этаж 0)                        </option>
+                                          </select>
+
+
+        <button>Перейти к оплате {{ amount }} руб.</button>
+    </form>
+    <script src="https://unpkg.com/imask"></script>
+    <script>
+        const phoneMask = IMask(document.getElementById('purchaserNumber'), {
+            mask: '+{7} (000) 000-0000'
+        });
+    </script>
